@@ -11,6 +11,11 @@ const TOKEN_2022_PROGRAM_ID: string = 'TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxu
 async function readMetadataConfig(): Promise<{ mintAddress: string, extensions: Record<string, string> }> {
     try {
         const data = await fs.readFile(CONFIG_FILE_PATH, 'utf8');
+        console.log("###################################");
+        console.log("Mint address:", JSON.parse(data).mintAddress);
+        console.log("Extensions:", JSON.parse(data).extensions);
+        console.log("Program ID:", TOKEN_2022_PROGRAM_ID);
+        console.log("###################################");
         return JSON.parse(data);
     } catch (error) {
         throw new Error(`Error reading metadata configuration file: ${(error as Error).message}`);
