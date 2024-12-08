@@ -1,12 +1,12 @@
 {
-    "mintAddress": "7sAq5H4W3n83RwyvdAiAM1NsRjx5pGGrNQcszXWJULF7",
-    "image": "./asset/connect.png",
-    "extensions": {
-      "website": "https://google.com",
-      "governance": "https://google.com/governance",  
-      "twitter": "https://twitter.com/example",
-      "discord": "https://discord.gg/example",
-      "telegram": "https://t.me/example",
-      "medium": "https://medium.com/@example"
-    }
+  "mintAddress": "7sAq5H4W3n83RwyvdAiAM1NsRjx5pGGrNQcszXWJULF7",
+  "image": "./asset/connect.png",
+  "extensions": {
+    "website": "https://google.com",
+    "governance": "https://google.com/governance",
+    "twitter": "https://twitter.com/example",
+    "discord": "https://discord.gg/example",
+    "telegram": "https://t.me/example",
+    "medium": "https://medium.com/@example"
   }
+}
