@@ -9,8 +9,8 @@ This script allows you to update the metadata extensions for a Solana token in o
 
 2. **Clone this repository**:
    ```bash
-   git clone https://github.com/bark-community/solana-token-metadata-updater.git
-   cd solana-token-metadata-updater
+   git clone https://github.com/SOLANADEVELOPMENT/spl-token-metadata-update.git
+   cd spl-token-metadata-update
    ```
 
 3. **Install dependencies**:
