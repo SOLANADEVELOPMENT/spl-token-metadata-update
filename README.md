@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/5d5a3d60-2a20-4763-b589-4f70e4823844)
+
 # Solana Token Metadata Updater
 
 This script allows you to update the metadata extensions for a Solana token in one go.
