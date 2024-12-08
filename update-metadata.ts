@@ -40,7 +40,7 @@ async function updateAllMetadata(): Promise<void> {
         console.log('Reading metadata configuration...');
         const { mintAddress, extensions } = await readMetadataConfig();
         console.log('Metadata configuration read successfully.');
-        
+
         console.log('Updating metadata extensions...');
         for (const [extension, url] of Object.entries(extensions)) {
             await updateMetadata(mintAddress, extension, url);
