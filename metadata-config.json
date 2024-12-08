@@ -1,0 +1,12 @@
+{
+    "mintAddress": "ZdmwWFt7VAkPxMbeFre63mL5EwAP1wWx8zqLj2nQK1Q",
+    "image": "./asset/connect.png",
+    "extensions": {
+      "website": "https://google.com",
+      "governance": "https://google.com/governance",  
+      "twitter": "https://twitter.com/example",
+      "discord": "https://discord.gg/example",
+      "telegram": "https://t.me/example",
+      "medium": "https://medium.com/@example"
+    }
+  }
